@@ -1,0 +1,187 @@
+DogChat
+The first social media app for dogs
+
+Some User Stories
+A dog can sign up for the app
+A dog can browse posts from its friends in chronological order
+A dog can like another dog’s post
+A dog can create a text-based post
+A dog can comment on another dog’s post
+A dog can send a friend request to another user.
+
+
+Story 1
+‘’Suppose a dog downloads the DogChat app, a dog can sign up for the app”
+ A dog can choose its username used to login.
+A dog can create a unique password used for login.
+ A dog can choose privacy settings on sign up whether to be invisible or visible to other users.
+
+
+Story 2
+“A dog can browse posts from its friends in chronological order”
+
+A dog logs in to the app using its username and password
+If the login is successful, the dog sees a list of posts from its friends in chronological order
+
+
+Story 3
+“A dog can like another dog’s post”
+
+Suppose a dog is logged in, viewing the feed page (see Story 2)
+On any post visible to the dog, they can click a button to “like” the post
+Once they click the button, they can see that they have liked the post
+If the dog returns to the feed page later, they can still see they have liked the post
+
+
+Story 4
+“A dog can create a post”
+
+Suppose a dog is logged in, viewing the feed page (see Story 2)
+The dog can see a textbox to enter some text they want to post
+When the dog presses a “post” button, the message is posted
+When any other friend of the dog logs in and views their feed page, they can see the new post.
+
+
+Story 5
+“A dog can comment on another dog’s post”
+Suppose a dog is logged in, viewing the feed page (see Story 2)
+On any post visible to the dog, they can click a comments button
+When they click the comments button, they see 
+The relevant post
+All of the comments on the post in chronological order
+A textbox to create a new comment 
+They can enter some text in the textbox and press a “comment” button
+Then, this new comment is visible in the list of comments, to any dog who can see the post
+
+
+Story 6
+“A dog can send a friend request to another user”
+ Suppose a dog is logged in, viewing the feed page (see Story 2).
+They click the friends button below the profile picture
+They identify friends they know and click the add friend button
+A message showing they have sent a friend request pops up and when they go back to the friends page they see a friend request pending confirmation if the other user has not confirmed they can be friends yet. 
+A user can see friend requests on the friends page.
+A user can confirm received friend request or decline by deleting.
+
+
+
+Some views for DogChat
+Sign-up page
+Privacy settings
+Login page
+Feeds page
+Friends page
+Post/comment page
+“Splash page” (if not logged in)
+
+
+DogChat
+Sign up
+Sign up
+Create Password
+Enter Username
+fido123
+*******
+Create account
+By default, you are invisible to other users and can opt-in to being visible or not. You can change these settings at any time.
+      Keep me hidden
+       Nobody will see you or your posts.
+
+      Show my profile and my posts
+     You are visible to all users and everyone will                            see your posts.
+
+Privacy settings
+
+
+DogChat
+Login
+Log In
+Password
+Username
+fido123
+*******
+Login
+
+DogChat
+My Feed
+I can’t wait to go to the park today!
+I can’t wait to go to the park today!
+I can’t wait to go to the park today!
+January  24, 6pm
+January 24, 6pm
+January 24, 6pm
+Log out
+I’m really hungry for a treat rn
+Post
+New post
+3
+4
+15
+0
+       
+     
+
+
+      Ruby
+
+      Zues
+
+      Pigot
+Profile picture
+Friends
+
+Friends
+Ruby
+Zues
+Pigot
+Hulk sent you a friend request
+ Pending Confirmation
+confirm
+delete
+Friends
+
+Received Friend Requests
+Sent Friend Requests
+Back to feeds
+
+DogChat
+My Feed
+I can’t wait to go to the park today!
+I can’t wait to go to the park today!
+I can’t wait to go to the park today!
+January 24, 4pm
+January 24, 6pm
+January 24, 6pm
+Log out
+I’m really hungry for a treat rn
+Post
+New post
+3
+4
+15
+0
+       
+     
+
+
+      Ruby
+
+      Zues
+
+      Pigot
+Profile picture
+Friends
+
+Comments
+I can’t wait to go to the park today!
+January 24, 4pm
+3
+0
+I can’t wait to join you at the park!
+January 24, 7pm
+I can’t wait to join you at the park!
+January 24, 7pm
+I’d rather take a nap today!
+Comment
+New comment
+Back
